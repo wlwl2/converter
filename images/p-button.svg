@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="905"
+   height="174"
+   viewBox="0 0 905 174"
+   id="svg4784"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="p-button.svg">
+  <defs
+     id="defs4786">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4384-9-9">
+      <path
+         sodipodi:type="star"
+         style="opacity:0.34200003;fill:#ffff00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1"
+         id="path4386-4-0"
+         sodipodi:sides="5"
+         sodipodi:cx="121.27544"
+         sodipodi:cy="-464.35001"
+         sodipodi:r1="152.88611"
+         sodipodi:r2="127.19604"
+         sodipodi:arg1="1.2854669"
+         sodipodi:arg2="1.9137854"
+         inkscape:flatsided="false"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 164.30884,-317.64524 -85.809884,-26.91744 -83.4499925,-33.52587 -0.9167081,-89.92799 6.09753105,-89.72572 85.24332255,-28.66112 87.218471,-21.92767 53.59998,72.21444 47.80645,76.17368 -52.11671,73.2921 z"
+         inkscape:transform-center-x="-12.839694"
+         inkscape:transform-center-y="1.3618602" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4359-2">
+      <path
+         sodipodi:type="star"
+         style="opacity:0.36800005;fill:#782121;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1"
+         id="path4361-1"
+         sodipodi:sides="5"
+         sodipodi:cx="578.99432"
+         sodipodi:cy="-86.829681"
+         sodipodi:r1="188.96021"
+         sodipodi:r2="157.20847"
+         sodipodi:arg1="0.4729066"
+         sodipodi:arg2="1.1012251"
+         inkscape:flatsided="false"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="M 747.2158,-0.76288062 650.13178,53.362916 549.12323,99.754553 l -81.47731,-75.6066 -75.33443,-81.729036 46.72828,-100.853247 54.44932,-96.90296 110.35697,13.27587 108.98595,21.83971 21.47608,109.05818 z"
+         inkscape:transform-center-x="9.2306763"
+         inkscape:transform-center-y="9.0383132" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4384-9-5-2">
+      <path
+         sodipodi:type="star"
+         style="opacity:0.34200003;fill:#ffff00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1"
+         id="path4386-4-8-2"
+         sodipodi:sides="5"
+         sodipodi:cx="121.27544"
+         sodipodi:cy="-464.35001"
+         sodipodi:r1="152.88611"
+         sodipodi:r2="127.19604"
+         sodipodi:arg1="1.2854669"
+         sodipodi:arg2="1.9137854"
+         inkscape:flatsided="false"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 164.30884,-317.64524 -85.809884,-26.91744 -83.4499925,-33.52587 -0.9167081,-89.92799 6.09753105,-89.72572 85.24332255,-28.66112 87.218471,-21.92767 53.59998,72.21444 47.80645,76.17368 -52.11671,73.2921 z"
+         inkscape:transform-center-x="-12.839694"
+         inkscape:transform-center-y="1.3618602" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="334.88977"
+     inkscape:cy="31.508066"
+     inkscape:document-units="px"
+     inkscape:current-layer="g4143"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     units="px" />
+  <metadata
+     id="metadata4789">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-878.36216)">
+    <g
+       id="g4143">
+      <rect
+         style="opacity:0.13900003;fill:#782121;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4621"
+         width="514.4447"
+         height="176.04572"
+         x="119.31937"
+         y="-233.5345"
+         clip-path="url(#clipPath4359-2)"
+         transform="matrix(0.97729026,0,0,1.0083333,287.38842,1113.4365)" />
+      <rect
+         y="877.78461"
+         x="-0.63258874"
+         height="175.07506"
+         width="907.38513"
+         id="rect4619"
+         style="opacity:0.34599998;fill:#b380ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4445-3"
+         y="989.20319"
+         x="29.447727"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:97.33867645px;line-height:125%;font-family:'Bradley Hand ITC';-inkscape-font-specification:'Bradley Hand ITC, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="989.20319"
+           x="29.447727"
+           id="tspan4459-2"
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic'">Pixel to em</tspan></text>
+    </g>
+  </g>
+</svg>

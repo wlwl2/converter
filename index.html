@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Converter</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+  </head>
+  <body>
+
+    <div class="converter-menu">
+      <div>
+        <div>
+          <img class="converter-title" src="./images/title.png" width="280px" height="54px" alt="title">
+        </div>
+        <div class="">
+
+        </div>
+      </div>
+      <div>
+        <div>
+          <a href="#" class="pixel-button">
+            <img src="./images/p-button.svg" width="275px" height="54px" alt="pixel to em conversion">
+          </a>
+        </div>
+        <div>
+          <a href="#" class="pixel-button-tab hide-tab">
+            <img src="./images/p-button-tab.svg" width="76px" height="54px" alt="pixel to em conversion">
+          </a>
+        </div>
+      </div>
+      <div>
+        <div>
+          <a href="#" class="length-button">
+            <img src="./images/l-button.svg" width="275px" height="54px" alt="length conversion">
+          </a>
+        </div>
+        <div >
+          <a href="#" class="length-button-tab hide-tab">
+            <img src="./images/l-button-tab.svg" width="76px" height="54px" alt="length conversion">
+          </a>
+        </div>
+      </div>
+      <div>
+        <div>
+          <a href="#" class="cooking-button">
+            <img src="./images/c-button.svg" width="275px" height="54px" alt="cooking conversion">
+          </a>
+        </div>
+        <div>
+          <a href="#" class="cooking-button-tab hide-tab">
+            <img src="./images/c-button-tab.svg" width="76px" height="54px" alt="cooking conversion">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="converter-container">
+      <div>
+
+        <section class="pixel-converter hidden-section">
+          <h1>Pixel to em Converter</h1>
+          <br>
+          <form>
+            <span class="no-wrap">
+              <label class="default-label">Parent element font size in pixels:</label>
+              <input type="text" class="default-size"/>
+            </span>
+            <output class="preview">preview</output>
+            <br><br>
+            <label>Child element font size:</label>
+            <br>
+            <span class="no-wrap">
+              <input type="text" class="em"/>
+              <label>em = &nbsp;</label>
+            </span>
+            <span class="no-wrap">
+              <input type="text" class="pixels"/>
+              <label>pixels</label>
+            </span>
+          </form>
+
+            <br>
+            <br>
+
+          <div class="pixel-notes">
+            Notes:
+            <br><br>
+            If you haven't set the font size anywhere on the page, then it is the browser default, which is probably 16px.
+            <br>
+            (https://developer.mozilla.org/en/docs/Web/CSS/font-size)
+            <br><br>
+            html { <br>
+              &nbsp;font-size: 16px;
+            <br>}
+            <br><br>
+            1em = 12pt = 16px = 100%
+            <br><br>
+            The rule:
+            <br><br>
+            h1 { line-height: 1.2em }
+            <br><br>
+            means that the line height of h1 elements will be 20% greater than the font size of h1 element. On the other hand:
+            <br><br>
+            h1 { font-size: 1.2em }
+            <br><br>
+            means that the font size of h1 elements will be 20% greater than the computed font size inherited by h1 elements.
+            <br><br>
+            The idea of inheritance is important. See: <a href="http://pixel-root.bitballoon.com">pixel-root.bitballoon.com</a>.
+          </div>
+
+        </section>
+
+        <section class="length-converter hidden-section">
+          <h1>Length Converter</h1>
+          <br>
+          <form>
+            <select class="length-select">
+              <option value="inchCm">inches to cm</option>
+              <option value="mileKm">miles to km</option>
+            </select>
+            <br><br>
+            <div class="inches-to-cm-container">
+              <span class="no-wrap" class="no-wrap"><span><input type="text" class="inch"/><label>&nbsp;Inches (in) = &nbsp;</label></span></span>
+              <span class="no-wrap" class="no-wrap"><span><input type="text" class="cm"/><label>&nbsp;Centimeters (cm)</label></span></span>
+            </div>
+            <div class="miles-to-kilometers-container hidden">
+              <span class="no-wrap" class="no-wrap"><span><input type="text" class="miles"/><label>&nbsp;Miles(mi) = &nbsp;</label></span></span>
+              <span class="no-wrap" class="no-wrap"><span><input type="text" class="kilometers"/><label>&nbsp;Kilometers (km)</label></span></span>
+            </div>
+          </form>
+        </section>
+
+        <section class="cooking-converter hidden-section">
+          <h1>Cooking Converter</h1>
+          <br>
+          <form>
+            <select class="cooking-select">
+              <option value="ukpintMl">UK pint to ml</option>
+              <option value="celFah">°C to °F</option>
+            </select>
+            <br><br>
+            <div class="ukpints-to-ml-container">
+              <span class="no-wrap"><input type="text" class="ukpint"/><label>&nbsp;UK pint (UK pt) = &nbsp;</label></span>
+              <span class="no-wrap"><input type="text" class="millilitres"/><label>&nbsp;Millilitres (ml)</label></span>
+              <div class="cooking-notes">
+                <br>
+                Notes:
+                <br>
+                <br>
+                Take note that 1 UK/Imperial pint is equal to 568.261 ml- this is the conversion rate used on this website.
+                On the other hand, 1 US liquid pint is equal to 473.176 ml.
+              </div>
+            </div>
+            <div class="celcius-to-fahrenheit-container hidden">
+              <span class="no-wrap"><input type="text" class="cel"/><label>&nbsp;Degrees Celcius(°C) = &nbsp;</label></span>
+              <span class="no-wrap"><input type="text" class="fahrenheit"/><label>&nbsp;Degrees Fahrenheit (°F)</label></span>
+            </div>
+
+          </form>
+        </section>
+
+        <!--<span class="disclaimer">
+          This website is best viewed on the latest versions of Google Chrome or Mozilla Firefox. It might not work on other browsers.
+        </span>-->
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
