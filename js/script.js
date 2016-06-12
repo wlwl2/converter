@@ -156,97 +156,95 @@ switch (openedConverter) {
 
 /*hover events*/
 
+function noneOpen () { if ((pixelContainer.className !== "pixel-converter")
+    && (lengthContainer.className !== "length-converter")
+    && (cookingContainer.className !== "cooking-converter")) {
+      return true
+  }
+}
+
+/*pixelButton.addEventListener("mouseover", function(event) {
+    pixelButtonTab.parentElement.className = "pixel-button-tab show-tab";
+    lengthButtonTab.parentElement.className = "length-button-tab hide-tab";
+    cookingButtonTab.parentElement.className = "cooking-button-tab hide-tab";
+});
+lengthButton.addEventListener("mouseover", function(event) {
+    pixelButtonTab.parentElement.className = "pixel-button-tab hide-tab";
+    lengthButtonTab.parentElement.className = "length-button-tab show-tab";
+    cookingButtonTab.parentElement.className = "cooking-button-tab hide-tab";
+});
+cookingButton.addEventListener("mouseover", function(event) {
+    pixelButtonTab.parentElement.className = "pixel-button-tab hide-tab";
+    lengthButtonTab.parentElement.className = "length-button-tab hide-tab";
+    cookingButtonTab.parentElement.className = "cooking-button-tab show-tab";
+});
+pixelButtonTab.addEventListener("mouseover", function(event) {
+    pixelButtonTab.parentElement.className = "pixel-button-tab show-tab";
+    lengthButtonTab.parentElement.className = "length-button-tab hide-tab";
+    cookingButtonTab.parentElement.className = "cooking-button-tab hide-tab";
+});
+lengthButtonTab.addEventListener("mouseover", function(event) {
+    pixelButtonTab.parentElement.className = "pixel-button-tab hide-tab";
+    lengthButtonTab.parentElement.className = "length-button-tab show-tab";
+    cookingButtonTab.parentElement.className = "cooking-button-tab hide-tab";
+});
+cookingButtonTab.addEventListener("mouseover", function(event) {
+    pixelButtonTab.parentElement.className = "pixel-button-tab hide-tab";
+    lengthButtonTab.parentElement.className = "length-button-tab hide-tab";
+    cookingButtonTab.parentElement.className = "cooking-button-tab show-tab";
+});*/
+
 document.addEventListener("mouseover", function() {
   if(pixelContainer.className === "pixel-converter") {
     lengthButtonTab.parentElement.className = "length-button-tab hide-tab";
     cookingButtonTab.parentElement.className = "cooking-button-tab hide-tab";
-
   }
   if(lengthContainer.className === "length-converter") {
-  pixelButtonTab.parentElement.className = "pixel-button-tab hide-tab";
-  cookingButtonTab.parentElement.className = "cooking-button-tab hide-tab";
-
+    pixelButtonTab.parentElement.className = "pixel-button-tab hide-tab";
+    cookingButtonTab.parentElement.className = "cooking-button-tab hide-tab";
   }
   if(cookingContainer.className === "cooking-converter") {
-        pixelButtonTab.parentElement.className = "pixel-button-tab hide-tab";
-        lengthButtonTab.parentElement.className = "length-button-tab hide-tab";
-
+    pixelButtonTab.parentElement.className = "pixel-button-tab hide-tab";
+    lengthButtonTab.parentElement.className = "length-button-tab hide-tab";
   }
 });
 
 pixelButton.addEventListener("mouseenter", function(event) {
-  pixelButtonTab.parentElement.className = "pixel-button-tab show-tab";
-  event.stopPropagation();
+  if (noneOpen() !== true) {
+    pixelButtonTab.parentElement.className = "pixel-button-tab show-tab";
+    event.stopPropagation();
+  }
 });
 lengthButton.addEventListener("mouseenter", function(event) {
-  lengthButtonTab.parentElement.className = "length-button-tab show-tab";
-  event.stopPropagation();
+    if (noneOpen() !== true) {
+      lengthButtonTab.parentElement.className = "length-button-tab show-tab";
+      event.stopPropagation();
+    }
 });
 cookingButton.addEventListener("mouseenter", function(event) {
-  cookingButtonTab.parentElement.className = "cooking-button-tab show-tab";
-  event.stopPropagation();
+    if (noneOpen() !== true) {
+      cookingButtonTab.parentElement.className = "cooking-button-tab show-tab";
+      event.stopPropagation();
+    }
 });
 pixelButtonTab.addEventListener("mouseenter", function(event) {
-  pixelButtonTab.parentElement.className = "pixel-button-tab show-tab";
-  event.stopPropagation();
+    if (noneOpen() !== true) {
+      pixelButtonTab.parentElement.className = "pixel-button-tab show-tab";
+      event.stopPropagation();
+    }
 });
 lengthButtonTab.addEventListener("mouseenter", function(event) {
-  lengthButtonTab.parentElement.className = "length-button-tab show-tab";
-  event.stopPropagation();
+  if (noneOpen() !== true) {
+    lengthButtonTab.parentElement.className = "length-button-tab show-tab";
+    event.stopPropagation();
+  }
 });
 cookingButtonTab.addEventListener("mouseenter", function(event) {
-  cookingButtonTab.parentElement.className = "cooking-button-tab show-tab";
-  event.stopPropagation();
-});
-/*
-pixelButton.addEventListener("mouseleave", function() {
-  if(pixelContainer.className !== "pixel-converter") {
-    pixelButtonTab.parentElement.className = "pixel-button-tab hide-tab";
+  if (noneOpen() !== true) {
+    cookingButtonTab.parentElement.className = "cooking-button-tab show-tab";
+    event.stopPropagation();
   }
 });
-lengthButton.addEventListener("mouseleave", function() {
-  if(lengthContainer.className !== "length-converter") {
-    lengthButtonTab.parentElement.className = "length-button-tab hide-tab";
-  }
-});
-cookingButton.addEventListener("mouseleave", function() {
-  if(cookingContainer.className !== "cooking-converter") {
-    cookingButtonTab.parentElement.className = "cooking-button-tab hide-tab";
-  }
-});
-
-pixelButtonTab.addEventListener("mouseleave", function() {
-  pixelButtonTab.parentElement.className = "pixel-button-tab hide-tab";
-});
-lengthButtonTab.addEventListener("mouseleave", function() {
-  lengthButtonTab.parentElement.className = "length-button-tab hide-tab";
-});
-cookingButtonTab.addEventListener("mouseleave", function() {
-  cookingButtonTab.parentElement.className = "cooking-button-tab hide-tab";
-});
-*/
-
-
-/*
-pixelButton.addEventListener("mouseover", function() {
-  pixelButtonTab.parentElement.className = "pixel-button-tab show-tab";
-  //lengthButtonTab.parentElement.className = "length-button-tab hide-tab";
-  //cookingButtonTab.parentElement.className = "cooking-button-tab hide-tab";
-});
-
-lengthButton.addEventListener("mouseover", function() {
-  lengthButtonTab.parentElement.className = "length-button-tab show-tab";
-  //pixelButtonTab.parentElement.className = "pixel-button-tab hide-tab";
-  //cookingButtonTab.parentElement.className = "cooking-button-tab hide-tab";
-});
-
-cookingButton.addEventListener("mouseover", function() {
-  cookingButtonTab.parentElement.className = "cooking-button-tab show-tab";
-  //pixelButtonTab.parentElement.className = "pixel-button-tab hide-tab";
-  //lengthButtonTab.parentElement.className = "length-button-tab hide-tab";
-});
-*/
-
 
 //
 // Length converter

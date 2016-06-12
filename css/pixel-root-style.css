@@ -1,0 +1,46 @@
+html {
+  font-size: 8px;
+}
+
+body {
+  font-size: 2em;
+  border-style: none;
+  margin: 10px;
+  border-color: #c2c2c2;
+}
+
+body button {
+  padding: 0;
+  background-color: #DECCF8;
+}
+
+body button a {
+  padding: 1px 6px;
+  text-decoration: none;
+}
+
+body button a:visited {
+  color: black;
+}
+
+.one {
+  font-size: 2em;
+  border-style: solid;
+  margin: 10px;
+  border-color: #c2c2c2;
+
+}
+
+.two {
+  font-size: 2em;
+  border-style: solid;
+  margin: 10px;
+  border-color: #c2c2c2;
+}
+
+.three {
+  font-size: 2em;
+  border-style: solid;
+  margin: 10px;
+  border-color: #c2c2c2;
+}
