@@ -1,2 +1,3 @@
-# converter
-convert measurements using this website
+# measurement-converter
+
+Convert measurements using this website.
